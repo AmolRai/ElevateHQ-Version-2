@@ -1,0 +1,319 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+}
+
+.home {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.color {
+  background-color: #efeefd;
+}
+
+.navbar {
+  margin-left: 90px;
+  padding-top: 60px;
+  font-size: 22px;
+}
+
+.navbar span {
+  color: #e37eff;
+  font-size: 36px;
+}
+
+.left {
+  margin-left: -40px;
+}
+
+.left h1 {
+  font-size: 65px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  width: 40vw;
+  margin-top: 80px;
+}
+
+.logo-collection {
+  margin-top: 40px;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.one img {
+  width: 120px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.one-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.one-card img {
+  width: 180px;
+  margin-top: 50px;
+  object-fit: contain;
+}
+
+.right {
+  margin-top: 100px;
+  margin-right: -40px;
+  width: 435px;
+  height: 830px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #0b1d39;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.inputs {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.right input {
+  width: 360px;
+  height: 55px;
+  padding: 2px;
+  padding-left: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+::placeholder {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  font-family: system-ui;
+}
+
+.demo {
+  height: 110px !important;
+}
+
+.right p {
+  margin-top: 30px;
+  font-size: 28px;
+  text-align: center;
+  width: 335px;
+}
+
+textarea {
+  padding-top: 16px;
+  padding-left: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.right button {
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(
+    286.95deg,
+    #ffeb3a 0,
+    #de0ef6 36.46%,
+    #885bff 68.62%,
+    #0d97fb 100%
+  );
+  color: white;
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.bottom-left {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.des {
+  font-size: 28px;
+  letter-spacing: 0.8px;
+}
+
+.anymore {
+  font-size: 26px;
+}
+
+.bottom-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  margin-top: 150px;
+}
+
+.bottom-right img {
+  width: 200px;
+}
+
+.bottom-name {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.name-first {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.name-second {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.line {
+  position: absolute;
+  right: 441px;
+  width: 51%;
+  height: 1px;
+  background-color: #afafaf;
+  margin-top: 364px;
+}
+
+.name-first {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.name-second {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (max-width: 1100px) {
+  .middle {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left h1 {
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .one {
+    gap: 50px;
+  }
+
+  .one-card img {
+    width: 150px;
+  }
+
+  .right {
+    margin-right: 0;
+  }
+
+  .bottom {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bottom-left {
+    width: 460px;
+    margin-left: 0;
+  }
+
+  .bottom-right {
+    margin-right: 0;
+  }
+
+  .line {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .left h1 {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+}
+
+/* sdfd */
+@media (max-width: 1300px) {
+  .middle {
+    height: auto !important;
+  }
+
+  .bottom {
+    margin-top: 0 !important;
+  }
+}
+
+.bottom {
+  margin-top: 100px;
+}
+
+.middle {
+  height: 875px;
+}
+
+@media (max-width: 600px) {
+  .one {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .one-card {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .one-card img {
+    margin-top: 10px;
+  }
+
+  .left h1 {
+    font-size: 20px;
+  }
+}
