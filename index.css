@@ -314,6 +314,29 @@ textarea {
   }
 
   .left h1 {
-    font-size: 20px;
+    font-size: 30px;
+  }
+
+  .right {
+    max-width: 400px;
+  }
+
+  .right input {
+    width: 320px;
+    height: 50px;
+  }
+
+  .demo {
+    width: 320px;
+  }
+
+  .bottom-left {
+    align-items: center !important;
+    width: 400px;
+  }
+
+  .des {
+    text-align: center;
+    font-size: 24px !important;
   }
 }
